@@ -1,13 +1,24 @@
 public class Book {
     private String title; 
     private double price;
+
+    // Constructor
     public Book(String title,double price){
         this.title=title;
         this.price=price;
     }
+
+    // Getter method for title
     public String getTitle(){
         return this.title;
     }
+
+    // Getter method for price
+    public double getPrice(){
+        return this.price;
+    }
+
+    // Method to get book information
     public String getBookInfo(){
         return this.title +" "+this.price;
     }
