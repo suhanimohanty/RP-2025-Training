@@ -6,7 +6,7 @@ public class Textbook extends Book {
         super(title, price);
         this.edition = edition;
     } 
-    // Getter method for subject
+    // Getter method for edition
     public int getEdition() {
         return this.edition;
     }
